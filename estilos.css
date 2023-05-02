@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&family=Delicious+Handrawn&family=Farsan&family=Open+Sans:ital@1&family=Oswald&family=Roboto:ital@1&display=swap');
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Delicious Handrawn', cursive;
+font-family: 'Farsan', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(126, 226, 148, 0.336);
+    height: 80px;
+    border: 2px solid #000;
+    text-shadow: 0 0 5px #000, 0 0 5px #000;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header span{
+    font-size: 30px;
+    color: #fff;
+}
+
+a:hover{
+    color: #ccc;
+}
+
+#collapsibleNavbar{
+    justify-content: end;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000;
+    text-shadow: 0 0 5px grey, 0 0 5px grey;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-image: url(./multimedia/fondo.footer.png);
+    border: 5px solid #000;
+    border-top: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto-footer {
+    font-family: 'Farsan', cursive;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 0 0 5px #333, 0 0 5px #333;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.logo-footer {
+    color: #fff;
+    font-family: 'Farsan', cursive;
+    font-size: 22px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0 0 5px #333, 0 0 5px #333;
+}
+
+.redes-footer {
+    padding: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Farsan', cursive;
+    font-size: 25px;
+}
+
+.redes-footer h4 {
+    text-shadow: 0 0 5px #333, 0 0 5px #333;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.redes-footer a {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 15px;
+    text-shadow: 0 0 5px #333, 0 0 5px #333;
+}
+
+.logo-chico {
+    width: 80px;
+    height: auto;
+}
