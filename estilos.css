@@ -14,6 +14,8 @@ font-family: 'Roboto', sans-serif; */
     box-sizing: border-box;
 }
 
+/* Inicio Header */
+
 header{
     background-color: rgba(126, 226, 148, 0.336);
     height: auto;
@@ -50,6 +52,10 @@ a:hover{
     text-shadow: 0 0 5px grey, 0 0 5px grey;
     font-weight: bold;
 }
+
+/* Fin Header */
+
+/* Inicio Index */
 
 .banner {
     padding-bottom: 5%;
@@ -173,7 +179,104 @@ h1 {
     background-color: #33333350;
 }
 
-footer {
+/* Fin Index */
+
+/* Inicio Pagina Trabajos */
+
+.main-trabajos{
+    width: 100%;
+    height: auto;
+    background-color: rgba(126, 226, 148, 0.336);
+    border: 2px solid #000;
+    border-top: none;
+}
+.main-trabajos h1{
+    padding-top: 40px;
+}
+
+.galeria{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 300px);
+    grid-template-areas: 
+    "foto-trabajo1"
+    "foto-trabajo2"
+    "foto-trabajo3"
+    "foto-trabajo4"
+    "foto-trabajo5"
+    "foto-trabajo6"
+    "foto-trabajo7"
+    "foto-trabajo8"
+    "foto-trabajo9";
+    padding: 40px;
+    grid-gap: 15px;
+}
+
+.foto-trabajo1{
+    grid-area: foto-trabajo1;
+    background-image: url(./multimedia/trabajos/gal1-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajo2{
+    grid-area: foto-trabajo2;
+    background-image: url(./multimedia/trabajos/gal10-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajo3{
+    grid-area: foto-trabajo3;
+    background-image: url(./multimedia/trabajos/gal16-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajo4{
+    grid-area: foto-trabajo4;
+    background-image: url(./multimedia/trabajos/gal18-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajo5{
+    grid-area: foto-trabajo5;
+    background-image: url(./multimedia/trabajos/gal22-300x300_adobe_express.jpeg);
+}
+.foto-trabajo6{
+    grid-area: foto-trabajo6;
+    background-image: url(./multimedia/trabajos/gal28-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajo7{
+    grid-area: foto-trabajo7;
+    background-image: url(./multimedia/trabajos/gal3-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajo8{
+    grid-area: foto-trabajo8;
+    background-image: url(./multimedia/trabajos/gal5-1-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajo9{
+    grid-area: foto-trabajo9;
+    background-image: url(./multimedia/trabajos/gal8-300x300_adobe_express.jpeg);
+}
+
+.foto-trabajos{
+    border: 5px solid #000;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.foto-trabajos:hover{
+    box-shadow: 0 0 5px 5px #fff;
+    transform: scale(1.09);
+    transition: all 1.1s;
+}
+
+/* Fin Pagina Trabajos */
+
+/* Inicio Footer */
+
+.footer {
     width: 100%;
     height: auto;
     background-image: url(./multimedia/fondo.footer.png);
@@ -233,4 +336,33 @@ footer {
 .logo-chico {
     width: 80px;
     height: auto;
+}
+
+/* Fin Footer */
+
+/* Medias */
+
+@media only screen and (min-width:768px) {
+    .galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 200px);
+        grid-template-areas:
+        "foto-trabajo1 foto-trabajo2"
+        "foto-trabajo3 foto-trabajo3"
+        "foto-trabajo4 foto-trabajo5"
+        "foto-trabajo6 foto-trabajo6"
+        "foto-trabajo7 foto-trabajo8"
+        "foto-trabajo9 foto-trabajo9"
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas:
+        "foto-trabajo1 foto-trabajo2 foto-trabajo3"
+        "foto-trabajo4 foto-trabajo5 foto-trabajo6"
+        "foto-trabajo7 foto-trabajo8 foto-trabajo9";
+    }
 }
