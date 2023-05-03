@@ -14,18 +14,17 @@
 </head>
 
 <body>
+    <!-- Inicio Header -->
     <header class="container-fluid">
         <section class="row">
             <div class="col-sm-12">
                 <nav class="navbar navbar-expand-lg">
                     <!-- Brand -->
                     <a class="navbar-brand" href="#"><span>Chemba Jardines</span></a>
-            
                     <!-- Toggler/collapsibe Button -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span><i class="fa-solid fa-bars"></i></span>
                     </button>
-            
                     <!-- Navbar links -->
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
@@ -50,7 +49,50 @@
             </div>
         </section>
     </header>
-
+    <!-- Fin Header -->
+    <!-- Inicio Main -->
+    <main>
+        <section class="contenedor-1c">
+            <div class="div1c">
+                <h1>CONTACTO</h1>
+                <p>Siéntase libre de hacer cualquier pregunta sobre jardinería por teléfono o póngase en contacto a
+                    través de nuestro formulario de contacto a continuación. Su mensaje será enviado directamente a
+                    nuestro personal, que responderá tan pronto como sea posible</p>
+            </div>
+            <div class="div2c">
+                <h3>FORMULARIO</h3>
+                <!-- Inicio Formulario -->
+                <form action="enviar.php" method="post" enctype="text/plain" class="formulario">
+                    <label for="nombre">Nombre</label>
+                    <br>
+                    <input type="text" required placeholder="ingresa tu nombre" name="nombre" id="nombre">
+                    <br>
+                    <label for="apellido">apellido</label>
+                    <br>
+                    <input type="text" placeholder="ingresa tu apellido" name="apellido" id="apellido">
+                    <br>
+                    <label for="contraseña">contraseña</label>
+                    <br>
+                    <input type="contraseña" placeholder="ingresa tu contraseña" name="contraseña" id="contraseña">
+                    <br>
+                    <label for="email">email</label>
+                    <br>
+                    <input type="email" name="email" id="email">
+                    <br><br><br>
+                    <label for="">comentarios</label>
+                    <br>
+                    <textarea name="areadetexto" id="comentarios" cols="30" rows="10"
+                        placeholder="ingrese texto"></textarea>
+                    <br>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="borrar">
+                </form>
+                <!-- Fin Formulario -->
+            </div>
+        </section>
+    </main>
+    <!-- Fin Main -->
+    
     <footer class="container-fluid">
         <section class="row">
             
