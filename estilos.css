@@ -185,8 +185,8 @@ h1 {
 .contenedor-1n {
     height: auto;
     background-color: rgba(126, 226, 148, 0.336);
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     border: 2px solid #000;
     border-top: none;
 }
@@ -205,8 +205,8 @@ h1 {
 .contenedor-2n {
     height: auto;
     background-color: rgba(126, 226, 148, 0.336);
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
     border: 2px solid #000;
     border-top: none;
 }
