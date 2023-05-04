@@ -72,7 +72,7 @@ a:hover{
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     color: #fff;
     padding: 20px;
@@ -180,7 +180,61 @@ h1 {
 }
 
 /* Fin Index */
+/* Inicio Pagina Nosotros */
 
+.contenedor-1n {
+    height: auto;
+    background-color: rgba(126, 226, 148, 0.336);
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 2px solid #000;
+    border-top: none;
+}
+
+.nosotros-texto p {
+    text-align: justify;
+    padding: 10px 50px 50px 50px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.nosotros-texto span {
+    font-weight: bold;
+}
+
+.contenedor-2n {
+    height: auto;
+    background-color: rgba(126, 226, 148, 0.336);
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 2px solid #000;
+    border-top: none;
+}
+
+.contenedor-2n h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 40px;
+    text-shadow: 0 0 5px #333, 0 0 5px #333;
+}
+
+.proveedores {
+    padding-bottom: 50px;
+}
+
+.iframe {
+    width: 350px;
+    height: 350px;
+    padding: 50px;
+}
+
+/* Fin Pagina Nosotros */
+/* Inicio Pagina Servicios */
+
+
+
+/* Fin Pagina Servicios */
 /* Inicio PAgina Contacto */
 
 .contenedor-1c{
