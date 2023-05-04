@@ -232,8 +232,46 @@ h1 {
 /* Fin Pagina Nosotros */
 /* Inicio Pagina Servicios */
 
+.contenedor-2s {
+    background-color:  rgba(126, 226, 148, 0.336);
+}
 
+.contenedor-2s h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
 
+.imagenservicios {
+    width: 300px;
+    height: auto;
+    border: 3px solid #000;
+    border-radius: 10%;
+    box-shadow:  0 0 5px #fff;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.div2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Fin Pagina Servicios */
 /* Inicio PAgina Contacto */
 
